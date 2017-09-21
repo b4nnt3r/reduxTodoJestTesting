@@ -1,6 +1,6 @@
-import {createTodo} from "./actions";
-import {toggleTodo} from "./actions";
-import {filterTodos} from "./actions";
+import { createTodo } from "./actions";
+import { toggleTodo } from "./actions";
+import { filterTodos } from "./actions";
 
 describe("CREATE_TODO yields a type text", () => {
   it("should call a CREATE_TODO action", () => {
